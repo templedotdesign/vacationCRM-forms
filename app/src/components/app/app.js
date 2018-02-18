@@ -1,10 +1,14 @@
 //Core
 import React from 'react';
 
+//Components
+import ReservationForm from '../forms/reservationForm/reservationForm';
+
+
 const app = () => {
   return (
     <div>
-      <h1>App</h1>
+      <ReservationForm/>
     </div>
   );
 };

@@ -1,0 +1,21 @@
+.field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.field input {
+  width: 100%;
+}
+

@@ -1,0 +1,82 @@
+.reservationForm {
+  width: 80%;
+  margin: 50px auto;
+  border: 1px solid #2376ec;
+  border-radius: 5px;
+}
+
+.banner {
+  background-color: #2376ec;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.skinny {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.disclaimer {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+  font-size: 1.2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reservationForm hr {
+  border-color: #2376ec;
+}
+
+.reservationForm button {
+  display: block;
+  padding: 20px;
+  margin: 30px auto;
+  font-family: inherit;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  background-color: #2376ec;
+  color: white;
+  box-shadow: 1px 1px 3px black;
+}
+
+.reservationForm button:hover {
+  background-color: white;
+  color: #2376ec;
+}
+
+.reservationForm button:disabled {
+  background-color: #ccc;
+  color: #ddd;
+  cursor: not-allowed;
+}
+
+.terms {
+  margin-left: 30px;
+  color: #2376ec; 
+}
+
+.terms:hover {
+  text-decoration: underline;
+}
+
+@media(max-width:750px) {
+  .reservationForm {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .skinny {
+    width: 100%;
+  }
+
+  .reservationForm select, .reservationForm input, .reservationForm textarea {
+    background-color: #ccc;
+  }
+}
